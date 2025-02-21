@@ -1,0 +1,133 @@
+.legal {
+  background-image: url(./bg.png);
+  background-size: cover;
+}
+.instructions {
+  background-image: url(./bg.png);
+  background-size: cover;
+}
+.heading {
+  padding-top: 80px;
+}
+.legal .heading h1 {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #feffc2, #ffc526, #ebd599);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #000000c9;
+  width: 350px;
+  text-align: center;
+  margin: 80px auto;
+  margin-bottom: 30px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  background: linear-gradient(45deg, #feffc2, #ffc526, #ebd599);
+  padding: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.text {
+  width: 800px;
+  height: auto;
+  background-image: url(./bg.png);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #feffc2, #ffc526, #ebd599);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+.text p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #fff;
+  text-align: justify;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.continue {
+  text-align: center;
+  margin-top: 10px;
+}
+.continue a {
+  display: inline-block;
+  padding: 20px 30px;
+  color: #fff;
+  border-bottom: 2px solid #ce0f0f;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 30px;
+}
+.continue a:hover {
+  background: linear-gradient(45deg, #feffc2, #ffc526, #ebd599);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid #ce0f0f;
+}
+
+@media (max-width: 768px) {
+  .legal .heading h1 {
+    font-size: 24px;
+    width: 300px;
+    margin: 40px auto;
+    margin-bottom: 20px;
+  }
+  .text {
+    width: 100%;
+    max-width: 600px;
+  }
+  .text h2 {
+    font-size: 18px;
+  }
+  .text p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .continue a {
+    font-size: 24px;
+    padding: 15px 25px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .legal .heading h1 {
+    font-size: 20px;
+    width: 250px;
+    margin: 30px auto;
+    margin-bottom: 15px;
+  }
+  .heading {
+    padding-top: 40px;
+  }
+  .text {
+    width: 100%;
+    max-width: 400px;
+  }
+  .text h2 {
+    font-size: 16px;
+  }
+  .text p {
+    font-size: 13px;
+    padding: 0 8px;
+  }
+  .continue a {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 15px;
+  }
+}
